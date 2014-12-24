@@ -1,7 +1,7 @@
 module Peek
   class ResultsController < ApplicationController
     before_filter :restrict_non_access
-    respond_to :json
+    # respond_to :json
 
     def show
       if request.xhr?
